@@ -21,14 +21,14 @@ public class Controller {
     private ToggleButton btnKitchen;
 
     @FXML
-    private ToggleButton btnBadroom;
+    private ToggleButton btnBedroom;
 
     @FXML
     private ToggleButton btnLivingRoom;
 
     @FXML
-    void handlerBtnBadroom(ActionEvent event) {
-        switchLight(Ip.BEDROOM.getValue(), btnBadroom);
+    void handlerBtnBedroom(ActionEvent event) {
+        switchLight(Ip.BEDROOM.getValue(), btnBedroom);
     }
 
     @FXML
